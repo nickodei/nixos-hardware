@@ -5,7 +5,7 @@
     owner = "linux-surface";
     repo = "linux-surface";
     rev = "arch-6.11.4-1";
-    hash = lib.fakeHash;
+    hash = "sha256-5rKfAIkGoD5Y4nMobr7wGvzZqN2yFElXqHdcQS2VL14=";
   };
 
   # This is the owner and repo for the pre-patched kernel from the "linux-surface" project:
