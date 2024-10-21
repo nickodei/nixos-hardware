@@ -12,7 +12,7 @@ let
   repos = pkgs.callPackage ../repos.nix {};
 
   linuxPackage =
-    { url ? "https://cdn.kernel.org/pub/linux/kernel/v${versions.major version}.x/linux-${version}.tar.xz",
+    { url ? "mirror://kernel/linux/kernel/v${versions.major version}.x/linux-${version}.tar.xz",
       sha256 ? null,
       src ? (fetchurl { inherit url sha256; }),
       version,
